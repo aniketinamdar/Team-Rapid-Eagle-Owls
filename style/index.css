@@ -60,11 +60,11 @@ input[type="text"] {
     height: 40vh;
 }
 
-.load .cardlist {
+.restos .cardlist {
     display: flex;
 }
 
-.load .cardlist .row .card {
+.restos .cardlist .row .card {
     margin: 0 5vw;
 }
 
@@ -72,7 +72,8 @@ input[type="text"] {
     display: flex;
 }
 
-.load {
+.restos {
+    margin-top: 5vh;
     padding-bottom: 10vh;
 }
 
@@ -106,4 +107,14 @@ hr {
 
 .searchfilters .filters {
     padding-left: 16vw;
+}
+
+.hide {
+    display: none;
+}
+
+#del-service {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
